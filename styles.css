@@ -133,7 +133,7 @@ footer {
   .suvs,
   .luxury {
     height: 400px;
-    width: 200px;
+    max-width: 100%;
     padding: 20px;
   }
 
@@ -165,5 +165,13 @@ footer {
 
   button {
     padding: 10px 25px;
+  }
+
+  .suvs p,
+  .sedans p,
+  .luxury p {
+    font-size: 0.9rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
   }
 }
